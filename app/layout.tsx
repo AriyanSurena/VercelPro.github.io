@@ -1,5 +1,5 @@
 import "@/app/ui/global.css";
-import { josefinSans } from "./ui/font";
+import { lusitana } from "./ui/fonts";
 
 export default function RootLayout({
   children,
@@ -8,7 +8,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={josefinSans.className} style={{ fontWeight:400 }}>{children}</body>
+      <body className={lusitana.className} style={{ fontWeight:400 }}>{children}</body>
     </html>
   );
 }
